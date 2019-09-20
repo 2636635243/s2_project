@@ -16,6 +16,9 @@ public class Test {
             master.play(pet);
         }else {
             System.out.println("对不起，没有此类型的宠物，领养失败");
+            System.out.println("请重新选择" +
+                    "" +
+                    "");
         }
     }
 }
